@@ -109,7 +109,7 @@ function spawnShrubs() {
 
   if (frameCount % 150 === 0) {
 //find the bug in the below code
-    var shrub = createSprite(camera.position.x-500,330,40,10);
+    var shrub = createSprite(camera.position.x+500,330,40,10);
    
 
     shrub.velocityX = -(6 + 3*score/100)
